@@ -13,7 +13,7 @@ npm install @tokkiyaa/map2json
 ### ES6 Map => JSON Object
 
 ```javascript
-import { map2Json } from "@tokkiyaa/map2Json";
+import { map2Json } from "@tokkiyaa/map2json";
 
 const map = new Map([["a", 1], ["b", 2]]);
 map2Json(map);
@@ -23,7 +23,7 @@ map2Json(map);
 ### JSON Object => ES6 Map
 
 ```javascript
-import { json2Map } from "@tokkiyaa/map2Json";
+import { json2Map } from "@tokkiyaa/map2json";
 const jsonObject = { a: 1, b: 2 };
 json2Map(jsonObject);
 // Map(2) {"a" => 1, "b" => 2}
