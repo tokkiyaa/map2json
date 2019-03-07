@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "JSON Object <=> ES6 Map Converter",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "jest"
   },
