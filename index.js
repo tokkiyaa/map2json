@@ -1,4 +1,6 @@
-export function map2Json(map) {
+Object.defineProperty(exports, "__esModule", { value: true });
+
+function map2Json(map) {
   const obj = {};
 
   for (const key of map.keys()) {
@@ -12,8 +14,9 @@ export function map2Json(map) {
 
   return obj;
 }
+exports.map2Json = map2Json;
 
-export function json2Map(obj) {
+function json2Map(obj) {
   const map = new Map();
 
   for (const key of Object.keys(obj)) {
@@ -30,3 +33,5 @@ export function json2Map(obj) {
 
   return map;
 }
+
+exports.json2Map = json2Map;
