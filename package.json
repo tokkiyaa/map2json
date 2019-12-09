@@ -19,7 +19,7 @@
   "homepage": "https://github.com/tokkiyaa/map2json#readme",
   "devDependencies": {
     "@babel/core": "7.7.5",
-    "@babel/preset-env": "7.7.5",
+    "@babel/preset-env": "7.7.6",
     "babel-jest": "24.9.0",
     "jest": "24.9.0"
   },
